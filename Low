@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Low Price</title>
+	<script src='https://code.jquery.com/jquery-3.1.1.min.js'></script>
+	<script src='bootstrap-3.3.7-dist/js/bootstrap.min.js'></script>
+	<link href='bootstrap-3.3.7-dist/css/bootstrap.css' rel='stylesheet'>
+	<link href='styles.css' rel='stylesheet'>
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+</head>
+<body>
+	<h1>Select your night</h1>
+	 	<div>
+	 		<a class="btn btn-primary" role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+  			Link with href
+			</a>
+		</div>
+
+</body>
