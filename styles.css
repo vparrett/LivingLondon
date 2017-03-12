@@ -1,12 +1,34 @@
 h1 {
 	text-align: center;
 }
+body {
+	background-color:transparent;
+}
 
 .row {
 	text-align: center;
 }
-
-.btn {
+br {
+        line-height: 900%;
+     }
+.mybutton {
 	width: 80%;
 	height: 250px;
+	background-color: transparent;
+	font-size: 48px;
+	color: white;
+}
+.btn-secondary{
+	width: 250px;
+}
+.image {
+	background-position: center;
+}
+html { 
+background-color: transparent;
+background: url(images/skyline.jpeg) no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
 }
