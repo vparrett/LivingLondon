@@ -7,7 +7,7 @@ h1 {
 h2 {
 	text-align: center;
 	font-family: 'Monoton', cursive;
-	font-size: 100px;
+	font-size: 60px;
 	margin-bottom: 50px;
 }
 body {
@@ -30,12 +30,12 @@ body {
 	background-color: rgba(0, 0, 0, 0.5);
 	margin-bottom: 100px;
 }
-.mybutton: hover { 
+.mybutton:hover { 
     background-color: yellow;
     transition-timing-function: linear;
     transition-duration: 1s;
 }
-.btn-secondary{
+.btn-secondary {
 	width: 250px;
 }
 
