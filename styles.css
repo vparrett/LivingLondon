@@ -45,8 +45,12 @@ body {
 	width: 250px;
 }
 
-html { 
+.homepage { 
 	background: url(images/skyline.jpeg) no-repeat center center fixed; 
+	background-size: cover;
+}
+.Low {
+	background: url(images/sunset.jpg) no-repeat center center fixed; 
 	background-size: cover;
 }
 .nav-tabs {
