@@ -4,6 +4,12 @@ h1 {
 	font-size: 100px;
 	margin-bottom: 120px;
 }
+h2 {
+	text-align: center;
+	font-family: 'Monoton', cursive;
+	font-size: 100px;
+	margin-bottom: 50px;
+}
 body {
 	background-color:transparent;
 	font-family: 'Advent Pro', sans-serif;
@@ -22,8 +28,9 @@ body {
 	font-size: 60px;
 	color: white;
 	background-color: rgba(0, 0, 0, 0.5);
+	margin-bottom: 100px;
 }
-.mybutton:hover { 
+.mybutton: hover { 
     background-color: yellow;
     transition-timing-function: linear;
     transition-duration: 1s;
@@ -35,4 +42,21 @@ body {
 html { 
 	background: url(images/skyline.jpeg) no-repeat center center fixed; 
 	background-size: cover;
+}
+.nav-tabs {
+	color: red;
+	margin-right: 100px;
+	margin-left: 100px;
+	margin-bottom: 10px;
+	font-size: 50px;
+	display: flex; /* Enable justify-content/align-items usage */
+	align-items: center; /* Vertical centre */
+	justify-content: center;
+}
+.tab-content {
+	color: white;
+	margin: 100px;
+	margin-top: 10px;
+	font-size: 20px;
+	background-color: rgba(0, 0, 0, 0.5);
 }
