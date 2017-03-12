@@ -2,24 +2,31 @@ h1 {
 	text-align: center;
 	font-family: 'Monoton', cursive;
 	font-size: 100px;
+	margin-bottom: 120px;
 }
 body {
 	background-color:transparent;
+	font-family: 'Advent Pro', sans-serif;
 }
 
-.row {
-	text-align: center;
-}
-br {
-        line-height: 900%;
-     }
+/* Override Bootstrap 'row' class */
+.row { text-align: center; }
+
 .mybutton {
-	width: 80%;
-	height: 250px;
-	background-color: transparent;
-	font-size: 48px;
+	display: flex; /* Enable justify-content/align-items usage */
+	align-items: center; /* Vertical centre */
+	justify-content: center; /* Horizontal centre */
+    height: 500px;
+    width: 80%;
+    margin: auto;
+	font-size: 60px;
 	color: white;
+	background-color: rgba(0, 0, 0, 0.5);
 }
+.mybutton:hover { 
+    background-color: yellow;
+}
+
 .btn-secondary{
 	width: 250px;
 }
