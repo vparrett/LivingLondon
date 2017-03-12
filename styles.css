@@ -8,7 +8,13 @@ h2 {
 	text-align: center;
 	font-family: 'Monoton', cursive;
 	font-size: 60px;
-	margin-bottom: 50px;
+	margin-bottom: 15px;
+}
+p {
+	text-align: center;
+	font-family: 'Advent Pro', sans-serif;
+	font-size: 30px;
+	margin-bottom: 40px;
 }
 body {
 	background-color:transparent;
@@ -57,6 +63,12 @@ html {
 	color: white;
 	margin: 100px;
 	margin-top: 10px;
-	font-size: 20px;
+	font-size: 30px;
 	background-color: rgba(0, 0, 0, 0.5);
+	text-align: center;
 }
+
+$('#myTabs a').click(function (e) {
+  e.preventDefault()
+  $(this).tab('show')
+})
