@@ -2,7 +2,7 @@ h1 {
 	text-align: center;
 	font-family: 'Monoton', cursive;
 	font-size: 100px;
-	margin-bottom: 120px;
+	margin-bottom: 20px;
 }
 h2 {
 	text-align: center;
@@ -14,7 +14,7 @@ p {
 	text-align: center;
 	font-family: 'Advent Pro', sans-serif;
 	font-size: 30px;
-	margin-bottom: 40px;
+	margin-bottom: 50px;
 }
 body {
 	background-color:transparent;
@@ -76,3 +76,8 @@ $('#myTabs a').click(function (e) {
   e.preventDefault()
   $(this).tab('show')
 })
+
+.submit {
+	text-align: right;
+	background-color: red;
+}
