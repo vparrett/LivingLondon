@@ -4,13 +4,18 @@ h1 {
 	font-size: 100px;
 	margin-bottom: 20px;
 }
+ /* Stops hyperlink of logo changing colour and underlining */
+h1 a, h1 a:hover {
+	color: black;
+	text-decoration: none
+}
 h2 {
 	text-align: center;
-	font-family: 'Monoton', cursive;
+	font-family: 'Advent Pro', sans-serif;
 	font-size: 60px;
 	margin-bottom: 15px;
 }
-p {
+h3 {
 	text-align: center;
 	font-family: 'Advent Pro', sans-serif;
 	font-size: 30px;
@@ -54,7 +59,6 @@ body {
 	background-size: cover;
 }
 .nav-tabs {
-	color: red;
 	margin-right: 100px;
 	margin-left: 100px;
 	margin-bottom: 10px;
@@ -63,21 +67,39 @@ body {
 	align-items: center; /* Vertical centre */
 	justify-content: center;
 }
-.tab-content {
-	color: white;
-	margin: 100px;
-	margin-top: 10px;
-	font-size: 30px;
-	background-color: rgba(0, 0, 0, 0.5);
+
+/* Hyper links in the tab navigation */
+.nav-tabs a {
 	text-align: center;
 }
 
-$('#myTabs a').click(function (e) {
-  e.preventDefault()
-  $(this).tab('show')
-})
+.tab-content {
+	display: inline-block; 
+	color: white;
+	margin-top: 10px;
+	margin-right: 100px;
+	margin-bottom: 30px;
+	margin-left: 100px;
+	font-size: 15px;
+	background-color: rgba(0, 0, 0, 0.5);
+	text-align: center;
+}
+.tab-pane .col-sm-4 {
+	padding: 5px;
+}
 
+/* Fix issue where starting active tab-pane displays differently to others */
+/* Source: http://stackoverflow.com/questions/17206631/why-are-bootstrap-tabs-displaying-tab-pane-divs-with-incorrect-widths-when-using#answer-23267110 */
+.tab-content > .tab-pane:not(.active) {
+    display: block;
+    height: 0;
+    overflow-y: hidden;
+}
 .submit {
 	text-align: right;
 	background-color: red;
 }
+
+/* Ensure images fill the width they're given */
+img, iframe { max-width: 100%; }
+
