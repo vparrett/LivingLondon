@@ -55,10 +55,18 @@ body {
 	background: url(images/sunset.jpg) no-repeat center center fixed; 
 	background-size: cover;
 }
+.Mid {
+	background: url(images/street.jpg) no-repeat center center fixed; 
+	background-size: cover;
+}
+.High {
+	background: url(images/pauls.jpg) no-repeat center center fixed; 
+	background-size: cover;
+}
 .nav-tabs {
 	margin-right: 5%;
 	margin-left: 5%;
-	margin-bottom: 10px;
+	margin-bottom: 5px;
 	font-size: 50px;
 	display: flex; /* Enable justify-content/align-items usage */
 	align-items: center; /* Vertical centre */
@@ -70,12 +78,23 @@ body {
 	text-align: center;
 }
 
+.Mid .nav-tabs a {
+	color: magenta;
+}
+.High .nav-tabs a {
+	color: yellow;
+}
+
+.nav-tabs .Mid {
+	color: yellow;
+}
+
 .tab-content {
 	display: inline-block; 
 	color: white;
-	margin-top: 50px;
+	margin-top: 5px;
 	margin-right: 5%;
-	margin-bottom: 10px;
+	margin-bottom: 60px;
 	margin-left: 5%;
 	font-size: 20px;
 	background-color: rgba(0, 0, 0, 0.5);
